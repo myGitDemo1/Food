@@ -20,13 +20,29 @@ header {
 header .imgbox {
   width: 40px;
 }
+header nav {
+  display: none;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
 header nav .home-color {
-  color: #76c4c1;
+  color: #74bebc;
+}
+header .menu {
+  border: 1px solid #131111;
+  padding: 14px 30px;
+  border-radius: 10px;
+}
+@media (min-width: 992px) {
+  header nav {
+    display: block;
+  }
+  header .menu {
+    display: none;
+  }
 }
 
 #beautiful {
