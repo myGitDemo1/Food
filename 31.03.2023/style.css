@@ -102,15 +102,27 @@ header .menu {
 #thehome .imgbox {
   width: 520px;
 }
+@media (max-width: 1200px) {
+  #thehome .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #thehome .row .textbox h5 {
+    margin: 14px 0;
+  }
+  #thehome .imgbox {
+    margin-top: 20px;
+    width: 400px;
+  }
+}
 
 #works h1 {
   font-weight: 700;
   font-size: 60px;
   color: #36b3bd;
   margin-bottom: 60px;
-}
-#works .box .imgbox {
-  width: 350px;
 }
 #works .box .textbox {
   padding: 35px 55px;
