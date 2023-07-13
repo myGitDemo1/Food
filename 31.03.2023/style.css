@@ -109,12 +109,15 @@ header .menu {
     justify-content: center;
     text-align: center;
   }
-  #thehome h5 {
+  #thehome .textbox h1 {
+    width: 100%;
+  }
+  #thehome .textbox h5 {
     margin: 14px 0;
   }
   #thehome .imgbox {
     margin-top: 20px;
-    width: 400px;
+    width: 100%;
   }
 }
 
@@ -210,6 +213,23 @@ header .menu {
 #browse .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media (max-width: 992px) {
+  #browse {
+    text-align: center;
+  }
+  #browse .col-md-12 {
+    flex-direction: column;
+  }
+  #browse .col-md-12 .textbox {
+    width: 100%;
+  }
+  #browse .col-md-12 .textbox h1 {
+    font-size: 40px;
+  }
+  #browse .col-md-12 .textbox h4 {
+    font-size: 14px;
+  }
 }
 
 #order .imgbox {
