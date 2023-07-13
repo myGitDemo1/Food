@@ -109,7 +109,7 @@ header .menu {
     justify-content: center;
     text-align: center;
   }
-  #thehome .row .textbox h5 {
+  #thehome h5 {
     margin: 14px 0;
   }
   #thehome .imgbox {
@@ -233,6 +233,20 @@ header .menu {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media (max-width: 1200px) {
+  #order .row {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #order .row .imgbox {
+    width: 100%;
+  }
+  #order .row .textbox h5 {
+    margin: 20px 0;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;
@@ -257,6 +271,23 @@ header .menu {
 #callour .imgbox {
   width: 520px;
 }
+@media (max-width: 1200px) {
+  #callour .row {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #callour .row .imgbox {
+    width: 100%;
+  }
+  #callour .row .imgbox img {
+    margin: 20px 0;
+  }
+  #callour .row .textbox h5 {
+    margin: 20px 0;
+  }
+}
 
 #support .textbox h1 {
   font-size: 60px;
@@ -277,4 +308,14 @@ header .menu {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media (max-width: 992px) {
+  #support .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  #support .row .imgbox {
+    margin-bottom: 20px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
